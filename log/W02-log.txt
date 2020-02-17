@@ -1,1 +1,9 @@
+gpg: searching for names from hkps server keys.openpgp.org
+gpg: key 67DF6DDE: public key "Operating Systems (OS) <operatingsystems@vlsm.org>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+gpg: automatically retrieved `operatingsystems@vlsm.org' via hkps://keys.openpgp.org
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
 
