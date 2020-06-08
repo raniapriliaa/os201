@@ -12,6 +12,7 @@ PS1="\$(eval \$PSTAMP)"rani.aprilia81@badak:~$
 rani.aprilia81@badak:~$ PS1="$ "
 $ 
 $ echo $GitHubUser
+raniapriliaa
 
 $ 
 $ echo $PSTAMP
