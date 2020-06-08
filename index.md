@@ -5,7 +5,7 @@ Selamat datang di Github Page saya!
 
 <a href="https://ibb.co/B3ggmBd"><img src="https://i.ibb.co/F3BB9zN/DSCF0839.jpg" alt="DSCF0839" border="0"></a>
 
->>Foto diatas diambil pada salah satu tempat yang paling berkesan bagi saya!
+>Foto diatas diambil pada salah satu tempat yang paling berkesan bagi saya!
 
 
 
