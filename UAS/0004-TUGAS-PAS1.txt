@@ -1,0 +1,37 @@
+Script started on Mon Jun  8 23:29:21 2020
+rani.aprilia81@badak:~/UAS$ PS1="$ "
+$ echo $GitHubUser
+raniapriliaa
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-233003-55e7-UAS/> 
+$ PS1="\$(eval \$PSTAMP)"
+200608-233013-051e-UAS/> echo -e $CEKSAYA
+raniapriliaa ZCZCSCRIPTSTART 200608-214143 raniapriliaa
+ raniapriliaa raniapriliaa 200608-214235-92eb-UAS/ 200608-214235 SEQOK SUMOK 92eb4546
+ raniapriliaa raniapriliaa 200608-214237-ad71-UAS/ 200608-101417 SEQOK SUMOK ad71ab5d
+ raniapriliaa raniapriliaa 200608-214241-2c47-UAS/ 200608-101434 SEQOK SUMOK 2c470fec
+ raniapriliaa raniapriliaa 200608-214252-0246-UAS/ 200608-101438 SEQOK SUMOK 02469513
+ raniapriliaa ZCZCSCRIPTSTOP 200608-214306 SEQOK
+
+200608-233014-8dba-UAS/> echo -e $CEKSEBELA1
+raniapriliaa ZCZCSCRIPTSTART 200604-164254 raularrafi
+ raniapriliaa raularrafi 200604-164325-af10-raul.arrafi/200604-164325 SEQOK SUMOK af106fa3
+ raniapriliaa raularrafi 200604-164344-d579-raul.arrafi/200604-164344 SEQOK SUMOK d5792347
+ raniapriliaa raularrafi 200604-164349-8595-raul.arrafi/200604-164349 SEQOK SUMOK 8595d632
+ raniapriliaa raularrafi 200604-164358-93b4-raul.arrafi/200604-164358 SEQOK SUMOK 93b4b9ce
+ raularrafi ZCZCSCRIPTSTOP 200604-164406 SEQOK
+
+200608-233021-25e3-UAS/> echo -e $CEKSEBELA2
+raniapriliaa ZCZCSCRIPTSTART 200529-162521 Raygue
+ raniapriliaa Raygue 200529-162554-162d-uas/ 200529-162554 SEQOK SUMOK 162df299
+ raniapriliaa Raygue 200529-162619-3b41-uas/ 200529-162619 SEQOK SUMOK 3B414E16
+ raniapriliaa Raygue 200529-162623-f431-uas/ 200529-162623 SEQOK SUMOK f4316b6a
+ raniapriliaa Raygue 200529-162629-70c9-uas/ 200529-162629 SEQOK SUMOK 70c92a21
+ Raygue ZCZCSCRIPTSTOP 200529-162636 SEQOK
+
+200608-233026-9f5b-UAS/> exit
+exit
+
+Script done on Mon Jun  8 23:30:33 2020
