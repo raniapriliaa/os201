@@ -1,0 +1,31 @@
+Script started on Mon Jun  8 17:05:06 2020
+rani.aprilia81@badak:~/UAS$ PS1="$ "
+$ echo $GitHubUser
+raniapriliaa
+$ 
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ 
+$ PS1="\$(eval \$PSTAMP)"
+200608-170515-2be6-UAS/> ls -F
+0000-mypub.txt  0001-mytest.txt  0002-mytest.txt.asc  0003-CEK-PAS0.txt
+200608-170644-053f-UAS/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+200608-170659-b510-UAS/> sha1sum -c SHA1SUM 
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200608-170734-0765-UAS/> gpg2 -sb -a SHA1SUM 
+
+You need a passphrase to unlock the secret key for
+user: "Rani Aprilia (new key) <rani.apriliaa@gmail.com>"
+4096-bit RSA key, ID 8EB233CE, created 2020-06-01
+
+pinentry-curses: no LC_CTYPE known - assuming UTF-8
+200608-170746-2614-UAS/> gpg2 --verify SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon Jun  8 17:07:46 2020 WIB using RSA key ID 8EB233CE
+gpg: Good signature from "Rani Aprilia (new key) <rani.apriliaa@gmail.com>" [ultimate]
+200608-170830-ea41-UAS/> exit
+exit
+
+Script done on Mon Jun  8 17:12:01 2020
