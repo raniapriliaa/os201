@@ -20,5 +20,4 @@ Dengan membuat github page ini, saya dapat belajar bagaimana cara membuat github
 ---
 
 ### Want to know more about Operation System? [Click Here!](https://raniapriliaa.github.io/os201/URLs/)
----
 
