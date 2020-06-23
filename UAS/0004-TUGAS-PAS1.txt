@@ -1,5 +1,5 @@
 Script started on Mon Jun  8 23:29:21 2020
-rani.aprilia81@badak:~/UAS$ PS1="$ "
+]0;rani.aprilia81@badak: ~/UASrani.aprilia81@badak:~/UAS$ PS1="$ "
 $ echo $GitHubUser
 raniapriliaa
 $ echo $PSTAMP
